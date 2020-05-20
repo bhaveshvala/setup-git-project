@@ -34,5 +34,26 @@ How to Setup github project in Your System
 </code>
 
 <img src="http://php71.indianic.com/ritikakankani/image/terminal_1.png" />
+<hr>
+<h4> Step:6 What you have copied is to take the clone here </h4>
 
+<code>
+  <p> Syntax: git clone "Your Copy URL" Project_name </p>
+  <p> Example: git clone http://git.indianic.com/ritikakankani/web-wp.git ritikakankani
+    
+</code>
+
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_2.gif" />
+<hr>
+<span>- Enter Your git username and Password</span>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_3.png" />
+<hr>
+<span>- Goto the project directory </span>
+<code> cd ritikakankani/ </code>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_4.png" />
+<hr>
+<span>- Create Readme file </span>
+<code> Example: touch README.md </span>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_5.png" />
+<hr>
 

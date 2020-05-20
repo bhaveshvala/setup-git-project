@@ -42,17 +42,17 @@ How to Setup github project in Your System
 </code>
 <img src="http://php71.indianic.com/ritikakankani/image/terminal_2.gif" />
 <hr>
-<span>- Enter Your git username and Password</span>
+<p>- Enter Your git username and Password</p>
 <br>
 <img src="http://php71.indianic.com/ritikakankani/image/terminal_3.png" />
 <hr>
-<span>- Goto the project directory </span>
+<p>- Goto the project directory </p>
 <br>
 <code> cd ritikakankani/ </code>
 <br>
 <img src="http://php71.indianic.com/ritikakankani/image/terminal_4.png" />
 <hr>
-<span>- Create Readme file </span>
+<p>- Create Readme file </p>
 <br>
 <code> Example: touch README.md </span>
 <br>

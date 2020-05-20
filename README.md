@@ -56,4 +56,58 @@ How to Setup github project in Your System
 <br>
 <img src="http://php71.indianic.com/ritikakankani/image/terminal_5.png" />
 <hr>
+<p>- Create .gitignore file. And Copy & paste below code in .gitignore file </p>
+<pre> 
+### WordPress ###
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
 
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz </pre>
+<br>
+<img src="http://php71.indianic.com/ritikakankani/image/folder.png" />
+<hr>
+<p>- Code push in Master branch </p>
+<p> Step 1: <b>git add .</b> </p>
+<p> Step 2: <b>git commit -m "add README and all code push on Master branch"</b> </p>
+<p> Step 3: <b>git push -u origin master</b> </p>
+<br>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_6.png" />
+<hr>
+<p>- Create staging branch </p>
+<p> Step 1: <b>git checkout -b staging</b> </p>
+<p> Step 2: <b>git branch</b></p>
+<br>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_7.png" />
+<br>
+<p> Step 3: <b>Copy your WordPress Project OR Wordpress Extract here</b> </p>
+<br>
+<img src="http://php71.indianic.com/ritikakankani/image/folder_2.png" />
+<br>
+<p> Step 4: <b>git add .</b> </p>
+<p> Step 5: <b>git commit -m "First code commit"</b> </p>
+<p> Step 6: <b>git push origin staging</b> </p>
+<br>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_8.png" />
+<hr>
+<p>- Create Your branch </p>
+<p> Step 1: <b>git checkout -b dev_bhavesh</b> </p>
+<p> Step 2: <b>git branch</b></p>
+<img src="http://php71.indianic.com/ritikakankani/image/terminal_9.png" />
+<p> Step 3: <b>ls</b></p>
+<img src="http://php71.indianic.com/ritikakankani/image/ls.png" />
+
+# Project setup done 
